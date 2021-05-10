@@ -14,4 +14,21 @@
     <PackageReference Include="Xamarin.Forms" Version="4.8.0.1451" />  
     <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Images\expand_arrow.png" />
+    <None Remove="Images\hide_arrow.png" />
+    <None Remove="Images\home.png" />
+    <None Remove="Images\explore.png" />
+    <None Remove="Images\settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\expand_arrow.png" />
+    <EmbeddedResource Include="Images\hide_arrow.png" />
+    <EmbeddedResource Include="Images\home.png" />
+    <EmbeddedResource Include="Images\explore.png" />
+    <EmbeddedResource Include="Images\settings.png" />
+  </ItemGroup>
 </Project>
